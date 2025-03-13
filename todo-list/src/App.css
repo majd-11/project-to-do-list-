@@ -1,0 +1,39 @@
+body {
+  width: 100%;
+
+  background-image: url(../pexels-breakingpic-3243.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.App {
+  border: 1px solid #808080;
+  border-radius: 20px;
+  padding: 25px 10px;
+  margin: 25px 250px;
+  border-style: none;
+  background-color: rgba(247, 235, 235, 0.603);
+}
+.to-do-container {
+  display: flex;
+  flex-direction: column;
+}
+.to-do-container ul li {
+  width: 180px;
+  overflow-wrap: break-word;
+  list-style-type: "👉";
+  cursor: pointer;
+}
+.done {
+  text-decoration: line-through;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trash {
+  cursor: pointer;
+}
+input {
+  height: 20px;
+}
